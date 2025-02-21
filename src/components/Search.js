@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { useNavigate, createSearchParams } from 'react-router';
+import { useNavigate, createSearchParams } from 'react-router-dom';
 
 const Search = () => {
   const searchInputRef = useRef();
